@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(libgif)
+project(giflib)
 
 # Set target library name
 set(TARGET_NAME libgif)
