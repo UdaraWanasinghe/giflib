@@ -37,4 +37,4 @@ add_library(${TARGET_NAME} SHARED ${SOURCE_FILES})
 set_target_properties(${TARGET_NAME} PROPERTIES POSITION_INDEPENDENT_CODE ON)
 
 # remove library prefix
-set_target_properties(libgif PROPERTIES PREFIX "")
+set_target_properties(${TARGET_NAME} PROPERTIES PREFIX "")
