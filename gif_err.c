@@ -34,7 +34,7 @@ GifErrorString(int ErrorCode)
         Err = "Neither global nor local color map";
         break;
       case E_GIF_ERR_DATA_TOO_BIG:
-        Err = "Number of pixels bigger than width * height";
+        Err = "Number of pixels bigger than frame_width * frame_height";
         break;
       case E_GIF_ERR_NOT_ENOUGH_MEM:
         Err = "Failed to allocate required memory";
@@ -70,7 +70,7 @@ GifErrorString(int ErrorCode)
         Err = "Wrong record type detected";
         break;
       case D_GIF_ERR_DATA_TOO_BIG:
-        Err = "Number of pixels bigger than width * height";
+        Err = "Number of pixels bigger than frame_width * frame_height";
         break;
       case D_GIF_ERR_NOT_ENOUGH_MEM:
         Err = "Failed to allocate required memory";
